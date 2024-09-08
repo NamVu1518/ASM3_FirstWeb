@@ -1,0 +1,168 @@
+.overlay {
+  background-color: rgba(1, 1, 1, 0.4);
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.overlay-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Màu nền với opacity 0.5 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item img {
+  height: 500px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.border-black {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.img-section-4 {
+  height: 300px;
+  text-align: center;
+}
+
+.img-section-5 {
+  height: 150px;
+}
+
+.border-bg-blue {
+  background-color: rgb(57, 136, 210);
+  border: none;
+  color: white;
+  border-radius: 50px;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* The icon in the left of the text boc */
+.icon-left {
+  position: absolute;
+  object-fit: contain;
+  width: 70px;
+  height: 70px;
+  top: -20px;
+  left: -20px;
+}
+
+/* The icon in the left of the text boc */
+.icon-right {
+  position: absolute;
+  object-fit: contain;
+  width: 70px;
+  height: 70px;
+  top: -20px;
+  right: -20px;
+}
+
+.icon-legacy-80 {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.icon-legacy-50 {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.icon-legacy-30 {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  object-fit: contain;
+}
+
+.icon-nav {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.bg-light-gray {
+  background-color: rgb(238, 238, 238);
+}
+
+.border-left-white {
+  border-left: 3px solid white;
+}
+
+.border-right-white {
+  border-right: 3px solid white;
+}
+
+.btn-submit {
+  height: 30px;
+  line-height: 100%;
+}
+
+.btn-view-more {
+  background-color: rgb(236, 227, 194);
+  border: none;
+  border-radius: 15px;
+  visibility: hidden;
+}
+
+.div-info:hover .btn-view-more {
+  visibility: visible;
+}
+
+.project-link a {
+  color: white;
+  background-color: rgb(57, 136, 210);
+  border-radius: 15px;
+  margin-left: auto;
+  width: 100px;
+  text-align: center;
+}
+
+.line-1-primary {
+  height: 1px;
+  background-color: rgba(13, 110, 253, 1);
+  margin-bottom: 12px;
+  border: none;
+}
+
+.line-5-white {
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  border: none;
+}
+
+.div-content-project {
+  border-radius: 5px;
+}
+
+.div-num {
+  border-radius: 50%;
+  background-color: rgba(13, 110, 253, 1);
+  color: white;
+  text-align: center;
+}
